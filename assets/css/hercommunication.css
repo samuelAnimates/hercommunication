@@ -52,12 +52,12 @@ body {
     font-weight: 700;
     font-size: 14pt;
     line-height: 1.37;
-    color: rgb(2,3,0);
+    color: inherit;
 }
 a{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 253);
     border:0;
-    color: blue;
+    color: rgb(0, 0, 145);
     font-family: inherit;
     font-size: inherit;
     margin:0;
@@ -66,8 +66,8 @@ a{
     vertical-align:baseline;  
 }
 a:focus, a:active, a:hover{
-    background-color: blue;
-    color: white;
+    background-color: rgb(0,0,145);
+    color: rgb(255,255,251);
 }
 h1{
     font-family: 'Khula', sans-serif;
@@ -109,8 +109,8 @@ ol, ul {
 	list-style: none;
 }
 ::selection {
-    color: rgb(253, 253, 253);
-    background:rgb(163, 25, 87);
+    color: rgb(255, 255, 251);
+    background:rgb(97, 0, 0);
 }
 a.skip-main {
     left:-999px;
@@ -160,44 +160,42 @@ a.skip-main:focus, a.skip-main:active {
     border-bottom: 15px solid transparent;
     border-left: 15px solid rgb(0,0,0);
 }
-.bg-color-yellow{
-    background-color: yellow;
-}
 .bg-color-black{
     background-color: rgb(2, 3, 0);
+}
+.bg-color-blue{
+    background-color: #ADBEFF;
+}
+.bg-color-pink{
+    background-color: #FFA6CE;
+}
+.bg-color-darkpurple{
+    background-color: rgb(97,0,68);
 }
 .bg-color-white{
     background-color: rgb(255, 255, 251);
 }
-.bg-color-blue{
-    background-color: rgb(51, 82, 163);
-}
-.bg-color-pink{
-    background-color: rgb(163, 25, 87);
+.bg-color-yellow{
+    background-color: rgb(255, 236, 190);
 }
 
 .border-2px-solid-black{
     border: 2px solid black;
 }
-
-.box-shadow{
-    box-shadow: -5px 5px rgba(0,0,0,0.33);
-}
-
 .color-black{
     color: rgb(2, 3, 0);
 }
 .color-blue{
-    color: rgb(51, 82, 163);
+    color: #ADBEFF;
 }
 .color-pink{
-    color: rgb(163, 25, 87);
-}
-.color-yellow{
-    color: yellow;
+    color: #FFA6CE;
 }
 .color-white{
     color: rgb(255, 255, 251);
+}
+.color-yellow{
+    color: rgb(255, 236, 190);
 }
 .display-flex{
     display: flex;
