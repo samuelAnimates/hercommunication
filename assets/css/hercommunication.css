@@ -51,7 +51,7 @@ body {
     font-family: 'Anonymous Pro', monospace;
     font-weight: 700;
     font-size: 14pt;
-    line-height: 1.37;
+    line-height: 1.25;
     color: inherit;
 }
 a{
@@ -203,6 +203,9 @@ a.skip-main:focus, a.skip-main:active {
 .border-bottom-white-4px{
     border-bottom: 4px solid rgb(255,255,251);
 }
+.bottom-0{
+    bottom: 0;
+}
 .box-shadow-lower{
     box-shadow: -8px 4px 0px 0px rgb(3,2,0);
 }
@@ -227,17 +230,14 @@ a.skip-main:focus, a.skip-main:active {
 .display-flex{
     display: flex;
 }
-.float-left{
-    float: left;
-}
-.float-right{
-    float: right;
-}
 .display-block{
     display: block;
 }
 .display-inline-block{
     display: inline-block;
+}
+.flex-direction-column{
+    flex-direction: column;
 }
 .flex-direction-row{
     flex-direction: row;
@@ -247,6 +247,12 @@ a.skip-main:focus, a.skip-main:active {
 }
 .flex-wrap-reverse{
     flex-wrap: wrap-reverse;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
 }
 .font-size-p9em{
     font-size: .9em;
@@ -290,6 +296,7 @@ a.skip-main:focus, a.skip-main:active {
 .padding-top-1em{
     padding-top: 1em;
 }
+
 .right-1em{
     right: 1em;
 }
@@ -301,6 +308,12 @@ a.skip-main:focus, a.skip-main:active {
 }
 .transform-skewx-neg15deg{
     transform: skewX(-15deg);
+}
+.transform-skewx-neg5deg{
+    transform: skewX(-5deg);
+}
+.transform-skewx-5deg{
+    transform: skewX(5deg);
 }
 .transform-skewx-15deg{
     transform: skewX(15deg);
@@ -337,6 +350,9 @@ a.skip-main:focus, a.skip-main:active {
     .width-xs-9{
         width:74%;
     }
+    .width-xs-10{
+        width:83.33%;
+    }
     .width-xs-12{
         width:100%;
     }
@@ -360,6 +376,9 @@ a.skip-main:focus, a.skip-main:active {
     }
     .width-sm-9{
         width:74%;
+    }
+    .width-sm-10{
+        width:83.33%;
     }
     .width-sm-12{
         width:100%;
@@ -385,6 +404,9 @@ a.skip-main:focus, a.skip-main:active {
     .width-md-9{
         width:74%;
     }
+    .width-md-10{
+        width:83.33%;
+    }
     .width-md-12{
         width:100%;
     }
@@ -409,6 +431,9 @@ a.skip-main:focus, a.skip-main:active {
     .width-lg-9{
         width:74%;
     }
+    .width-lg-10{
+        width:83.33%;
+    }
     .width-lg-12{
         width:100%;
     }
@@ -432,6 +457,9 @@ a.skip-main:focus, a.skip-main:active {
     }
     .width-xl-9{
         width:74%;
+    }
+    .width-xl-10{
+        width:83.33%;
     }
     .width-xl-12{
         width:100%;
