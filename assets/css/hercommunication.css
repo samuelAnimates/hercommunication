@@ -178,6 +178,13 @@ a.skip-main:focus, a.skip-main:active {
 .bg-color-yellow{
     background-color: rgb(255, 236, 190);
 }
+.bg-image-gradient{
+    background-image: url("../images/gradientbackground.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+
+}
 .border-bottom-black-4px{
     border-bottom: 4px solid rgb(2, 3, 0);
 }
@@ -235,11 +242,17 @@ a.skip-main:focus, a.skip-main:active {
 .flex-wrap-reverse{
     flex-wrap: wrap-reverse;
 }
+.height-6em{
+    max-height: 6em;
+}
 .justify-content-center{
     justify-content: center;
 }
-.height-6em{
-    max-height: 6em;
+.justify-content-space-between{
+    justify-content: space-between;
+}
+.justify-content-flex-end{
+    justify-content: flex-end;
 }
 .object-fit-cover{
     object-fit: cover;
@@ -256,8 +269,17 @@ a.skip-main:focus, a.skip-main:active {
 .padding-bottom-1em{
     padding-bottom: 1em;
 }
+.padding-bottom-2em{
+    padding-bottom: 2em;
+}
+.padding-right-2em{
+    padding-right: 2em;
+}
 .padding-top-1em{
     padding-top: 1em;
+}
+.right-1em{
+    right: 1em;
 }
 .text-center{
     text-align: center;
