@@ -162,10 +162,10 @@ a.skip-main:focus, a.skip-main:active {
     background-color: rgb(2, 3, 0);
 }
 .bg-color-blue{
-    background-color: #ADBEFF;
+    background-color: rgb(173, 190, 255);
 }
 .bg-color-pink{
-    background-color: #FFA6CE;
+    background-color: rgb(255, 166, 206);
 }
 .bg-color-darkpurple{
     background-color: rgb(97,0,68);
