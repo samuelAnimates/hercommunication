@@ -194,6 +194,9 @@ a.skip-main:focus, a.skip-main:active {
 .bg-yellow-gradient-dark{
     background: linear-gradient(0deg, rgba(255,236,190,1) 10%, rgba(0,0,3) 25%);
 }
+.bg-yellow-gradient-radial{
+    background: radial-gradient(circle, rgba(255,236,190,1) 10%, rgba(255,255,253,1) 33%);
+}
 .border-bottom-black-4px{
     border-bottom: 4px solid rgb(2, 3, 0);
 }
